@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node mail.js
+    "start": "node mail.js"
   },
   "dependencies": {
     "nodemailer": "^4.0.1",
