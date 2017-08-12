@@ -1,0 +1,12 @@
+{
+  "name": "NodeMailer-Gmail",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node mail.js
+  },
+  "dependencies": {
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^1.0.3"
+  }
+}
