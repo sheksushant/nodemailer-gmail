@@ -1,8 +1,5 @@
-var express=require('express');
-var bodyParser = require('body-parser');
 var nodemailer = require("nodemailer");
 var smtpTransport = require('nodemailer-smtp-transport');
-var app=express();
 
 var transporter = nodemailer.createTransport(smtpTransport({
     service: "Gmail",
