@@ -5,7 +5,7 @@ var transporter = nodemailer.createTransport(smtpTransport({
     service: "Gmail",
     auth: {
         user: "emailID@gmail.com",
-        pass: "your_app_secret" // Generate: https://support.google.com/accounts/answer/185833
+        pass: "your_app_secret"
     }
 })
 );
